@@ -23,14 +23,13 @@ package — no manual download required.
 
 ## Repository Contents
 
-| File                        | Description                                                                        |
-| --------------------------- | ---------------------------------------------------------------------------------- |
-| `perceptron_banknote.ipynb` | Full notebook: EDA, preprocessing, perceptron implementation, training, evaluation |
-| `epoch_wise_learning.csv`   | Epoch-wise training log (misclassified count, weights, bias per epoch)             |
-| `report/report.pdf`         | Full lab report (compiled)                                                         |
-| `report/report.tex`         | LaTeX source for the report                                                        |
-| `report/figures/`           | Generated plots (EPS, 600 DPI)                                                     |
-| `requirements.txt`          | Python dependencies                                                                |
+| File                                     | Description                                                                        |
+| ---------------------------------------- | ---------------------------------------------------------------------------------- |
+| `experiment_1_perceptron_banknote.ipynb` | Full notebook: EDA, preprocessing, perceptron implementation, training, evaluation |
+| `epoch_wise_learning_exp1.csv`           | Epoch-wise training log (misclassified count, weights, bias per epoch)             |
+| `requirements.txt`                       | Python dependencies                                                                |
+
+The full LaTeX lab report (PDF) is submitted separately per course requirements and links back to this repository for source code.
 
 ## Dependencies
 
@@ -42,7 +41,7 @@ pip install -r requirements.txt
 
 ## How to Run
 
-1. Open `perceptron_banknote.ipynb` in Jupyter or Google Colab.
+1. Open `experiment_1_perceptron_banknote.ipynb` in Jupyter or Google Colab.
 2. Run all cells top to bottom. The dataset is fetched automatically via `ucimlrepo`.
 3. Outputs include: EDA plots, trained perceptron weights/bias per epoch,
    test-set accuracy/precision/recall/F1, and the confusion matrix.
