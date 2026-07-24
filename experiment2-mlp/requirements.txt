@@ -1,0 +1,7 @@
+tensorflow
+scikeras
+scikit-learn==1.5.2
+numpy
+pandas
+matplotlib
+seaborn
